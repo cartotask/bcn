@@ -1,11 +1,26 @@
 {
   "version": 8,
   "name": "Dark Matter",
-  "sources": {
-    "Districts": {
-      "type": "geojson",
-      "data": "https://raw.githubusercontent.com/cartotask/bcn/refs/heads/main/BCNBoundaries.geojson"
+  "metadata": {
+    "mapbox:autocomposite": false,
+    "mapbox:groups": {
+      "101da9f13b64a08fa4b6ac1168e89e5f": {
+        "collapsed": false,
+        "name": "Places"
+      },
+      "a14c9607bc7954ba1df7205bf660433f": {"name": "Boundaries"},
+      "b6371a3f2f5a9932464fa3867530a2e5": {
+        "collapsed": false,
+        "name": "Transportation"
+      }
     },
+    "mapbox:type": "template",
+    "openmaptiles:mapbox:owner": "openmaptiles",
+    "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t",
+    "openmaptiles:version": "3.x",
+    "maputnik:renderer": "mlgljs"
+  },
+  "sources": {
     "BCNINS": {
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/cartotask/bcn/refs/heads/main/export.geojson"
@@ -17,103 +32,139 @@
     "MetroAccesibility": {
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/cartotask/bcn/refs/heads/main/StopsAcc.geojson"
+    },
+    "GeoData": {
+      "type": "vector",
+      "url": "\thttps://sgx.geodatenzentrum.de/gdz_basemapworld_vektor/tiles/v1/bm_web_wld_3857/bm_web_wld_3857.json"
+    },
+    "Districts": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/cartotask/bcn/refs/heads/main/BCNBoundaries.geojson"
+    },
+    "GreenAreas": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/cartotask/bcn/refs/heads/main/ZonesVerdes.geojson"
     }
   },
+  "sprite": "",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
   "layers": [
     {
       "id": "background",
       "type": "background",
-      "paint": { "background-color": "#f9f9f9" }
+      "layout": {"visibility": "visible"},
+      "paint": {"background-color": "rgba(255, 255, 255, 1)"}
     },
     {
-      "id": "districts-fill",
-      "type": "fill",
-      "source": "Districts",
-      "paint": {
-        "fill-color": "#e0e0e0",
-        "fill-opacity": 0.5
-      }
-    },
-    {
-      "id": "districts-line",
+      "id": "Districts",
       "type": "line",
       "source": "Districts",
+      "filter": ["all"],
+      "paint": {"line-color": "rgba(180, 180, 180, 1)"}
+    },
+    {
+      "id": "LandUse",
+      "type": "fill",
+      "source": "GeoData",
+      "source-layer": "landuse",
+      "filter": ["all", ["==", "name", "park"]],
+      "layout": {"visibility": "visible"},
       "paint": {
-        "line-color": "#888",
-        "line-width": 2
+        "fill-translate-anchor": {"stops": [[6, "viewport"], [10, "viewport"]]},
+        "fill-color": "rgba(200, 200, 226, 0.43)"
       }
     },
     {
-      "id": "districts-labels",
-      "type": "symbol",
+      "id": "Water",
+      "type": "fill",
+      "source": "GeoData",
+      "source-layer": "water",
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(20, 32, 76, 1)"}
+    },
+    {
+      "id": "Transport",
+      "type": "line",
+      "source": "GeoData",
+      "source-layer": "transportation",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(64, 43, 255, 1)",
+        "line-blur": 1,
+        "line-width": ["interpolate", ["linear"], ["zoom"], 10, 1, 14, 2]
+      }
+    },
+    {
+      "id": "DistrictsOnlyRaval",
+      "type": "line",
       "source": "Districts",
-      "layout": {
-        "text-field": ["get", "name"],
-        "text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
-        "text-size": {
-          "base": 1,
-          "stops": [
-            [10, 12],
-            [14, 16]
-          ]
-        }
-      },
+      "filter": ["==", ["get", "name"], "el Raval"],
       "paint": {
-        "text-color": "#000",
-        "text-halo-color": "#fff",
-        "text-halo-width": 1
+        "line-color": "rgba(43, 39, 43, 1)",
+        "line-width": 2,
+        "line-opacity": 1
       }
     },
     {
-      "id": "institutions",
+      "id": "Acces",
+      "type": "heatmap",
+      "source": "MetroAccesibility",
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "BuildingsInstitutions",
       "type": "circle",
       "source": "BCNINS",
-      "filter": ["==", ["get", "type"], "institution"],
+      "layout": {"visibility": "visible"},
       "paint": {
-        "circle-color": "#ff0a25",
-        "circle-radius": {
-          "base": 1,
-          "stops": [
-            [10, 4],
-            [14, 8]
-          ]
-        },
-        "circle-opacity": 0.8
+        "circle-color": "rgba(255, 10, 37, 1)",
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 10, 4, 14, 13],
+        "circle-blur": 1
       }
     },
     {
-      "id": "accessible-stops",
+      "id": "BuildingsInstitutions-copy",
       "type": "circle",
-      "source": "MetroAccesibility",
-      "filter": ["==", ["get", "accessible"], "yes"],
+      "source": "BCNINS",
+      "layout": {"visibility": "visible"},
       "paint": {
-        "circle-color": "#0039ff",
-        "circle-radius": {
-          "base": 1,
-          "stops": [
-            [10, 3],
-            [14, 6]
-          ]
-        },
-        "circle-opacity": 0.8
+        "circle-color": "rgba(225, 0, 20, 1)",
+        "circle-opacity": 1,
+        "circle-radius": 4
       }
     },
     {
-      "id": "non-accessible-stops",
+      "id": "MetroENA",
       "type": "circle",
       "source": "StopsNA",
-      "filter": ["==", ["get", "accessible"], "no"],
-      "paint": {
-        "circle-color": "#000000",
-        "circle-radius": {
-          "base": 1,
-          "stops": [
-            [10, 3],
-            [14, 6]
-          ]
-        },
-        "circle-opacity": 0.8
+      "layout": {"visibility": "visible"}
+    },
+    {
+      "id": "MStopsAccesibility",
+      "type": "circle",
+      "source": "MetroAccesibility",
+      "layout": {"visibility": "visible"},
+      "paint": {"circle-color": "rgba(0, 57, 255, 1)", "circle-radius": 5}
+    },
+    {
+      "id": "Building",
+      "type": "line",
+      "source": "GeoData",
+      "source-layer": "building",
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(137, 137, 137, 1)", "line-blur": 1}
+    },
+    {
+      "id": "NameDistricts",
+      "type": "symbol",
+      "source": "Districts",
+      "filter": ["==", ["get", "name"], "el Raval"],
+      "layout": {
+        "visibility": "visible",
+        "text-field": "el Raval ",
+        "text-font": ["Helvetica"]
       }
     }
-  ]
+  ],
+  "id": "dark-matter"
 }
