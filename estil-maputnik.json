@@ -1,0 +1,129 @@
+{
+  "version": 8,
+  "name": "Dark Matter",
+  "metadata": {
+    "mapbox:autocomposite": false,
+    "mapbox:groups": {
+      "101da9f13b64a08fa4b6ac1168e89e5f": {
+        "collapsed": false,
+        "name": "Places"
+      },
+      "a14c9607bc7954ba1df7205bf660433f": {"name": "Boundaries"},
+      "b6371a3f2f5a9932464fa3867530a2e5": {
+        "collapsed": false,
+        "name": "Transportation"
+      }
+    },
+    "mapbox:type": "template",
+    "openmaptiles:mapbox:owner": "openmaptiles",
+    "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t",
+    "openmaptiles:version": "3.x",
+    "maputnik:renderer": "mlgljs"
+  },
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL"
+    },
+    "BCNINS": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/cartotask/bcn/refs/heads/main/export.geojson"
+    },
+    "StopsNA": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/cartotask/bcn/refs/heads/main/StopsNA.geojson"
+    },
+    "MetroAccesibility": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/cartotask/bcn/refs/heads/main/StopsAcc.geojson"
+    }
+  },
+  "sprite": "https://openmaptiles.github.io/dark-matter-gl-style/sprite",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {"background-color": "rgba(255, 255, 255, 1)"}
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "paint": {"fill-color": "rgba(20, 32, 76, 1)"}
+    },
+    {
+      "id": "GreenAreas",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "paint": {
+        "fill-antialias": false,
+        "fill-color": "rgba(200, 200, 226, 0.43)"
+      }
+    },
+    {
+      "id": "Boundary",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "boundary",
+      "paint": {"line-color": "rgba(219, 219, 219, 1)"}
+    },
+    {
+      "id": "Building",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "building",
+      "paint": {
+        "line-color": "rgba(137, 137, 137, 1)",
+        "line-width": 1,
+        "line-blur": 1,
+        "line-opacity": 1
+      }
+    },
+    {
+      "id": "Transport",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(64, 43, 255, 1)",
+        "line-width": 1,
+        "line-blur": 1
+      }
+    },
+    {"id": "Acces", "type": "heatmap", "source": "MetroAccesibility"},
+    {
+      "id": "BuildingsInstitutions",
+      "type": "circle",
+      "source": "BCNINS",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "circle-color": "rgba(255, 10, 37, 1)",
+        "circle-radius": 13,
+        "circle-blur": 1
+      }
+    },
+    {
+      "id": "BuildingsInstitutions-copy",
+      "type": "circle",
+      "source": "BCNINS",
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "circle-color": "rgba(225, 0, 20, 1)",
+        "circle-opacity": 1,
+        "circle-radius": 4
+      }
+    },
+    {"id": "MetroENA", "type": "circle", "source": "StopsNA"},
+    {
+      "id": "MStopsAccesibility",
+      "type": "circle",
+      "source": "MetroAccesibility",
+      "paint": {"circle-color": "rgba(0, 57, 255, 1)", "circle-radius": 5}
+    }
+  ],
+  "id": "dark-matter"
+}
