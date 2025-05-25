@@ -1,0 +1,552 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-25T11:38:14Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438164378",
+        "name": "Plaça de Sants",
+        "name:ca": "Plaça de Sants",
+        "network": "Metro de Barcelona",
+        "operator": "TMB",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "geolocation taken from http://en.wikipedia.org/wiki/Barcelona_metro_line_1",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q2054359",
+        "wikipedia": "ca:Estació de Plaça de Sants"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1353228,
+          41.37563
+        ]
+      },
+      "id": "node/11438164378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5306846302",
+        "level": "-2",
+        "name": "Plaça de Sants",
+        "name:ca": "Plaça de Sants",
+        "network": "Metro de Barcelona",
+        "operator": "Transports Metropolitans de Barcelona",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q2054359",
+        "wikipedia": "ca:Estació de Plaça de Sants"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1379127,
+          41.3753756
+        ]
+      },
+      "id": "node/5306846302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313865123",
+        "defibrillator:access": "yes",
+        "defibrillator:location": "Andana direcció Vall d'Hebron",
+        "defibrillator:location:en": "Platform to Vall d'Hebron",
+        "defibrillator:survey:date": "2023-12-02",
+        "emergency:fire_extinguisher": "yes",
+        "name": "Sants Estació",
+        "name:ca": "Sants Estació",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1403215,
+          41.3798895
+        ]
+      },
+      "id": "node/5313865123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5310507552",
+        "name": "Reina Elisenda",
+        "name:ca": "Reina Elisenda",
+        "network": "FGC",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q3495438",
+        "wikipedia": "ca:Estació de Reina Elisenda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.119034,
+          41.3987898
+        ]
+      },
+      "id": "node/5310507552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5315505594",
+        "name": "les Tres Torres",
+        "name:ca": "les Tres Torres",
+        "network": "FGC",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q2133945",
+        "wikipedia": "ca:Estació de les Tres Torres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1311837,
+          41.3976108
+        ]
+      },
+      "id": "node/5315505594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5315505595",
+        "name": "la Bonanova",
+        "name:ca": "la Bonanova",
+        "network": "FGC",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q2647730",
+        "wikipedia": "ca:Estació de la Bonanova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1361547,
+          41.3977857
+        ]
+      },
+      "id": "node/5315505595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314011844",
+        "name": "Plaça Molina",
+        "name:ca": "Plaça Molina",
+        "network": "FGC",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q640079",
+        "wikipedia": "ca:Estació de Plaça Molina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1474414,
+          41.4013354
+        ]
+      },
+      "id": "node/5314011844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314613396",
+        "name": "Sant Gervasi",
+        "name:ca": "Sant Gervasi",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q1841199",
+        "wikipedia": "ca:Estació de Sant Gervasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1470799,
+          41.4010671
+        ]
+      },
+      "id": "node/5314613396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314011846",
+        "name": "el Putxet",
+        "name:ca": "el Putxet",
+        "network": "FGC",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q1869410",
+        "wikipedia": "ca:Estació del Putxet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1391359,
+          41.4058141
+        ]
+      },
+      "id": "node/5314011846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5264057236",
+        "name": "Provença",
+        "name:ca": "Provença",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q2472213",
+        "wikipedia": "ca:Estació de Diagonal-Provença"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.157979,
+          41.3928741
+        ]
+      },
+      "id": "node/5264057236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313819558",
+        "access": "yes",
+        "defibrillator:location": "andana direcció Fondo",
+        "defibrillator:location:en": "platform to Fondo",
+        "emergency": "defibrillator",
+        "emergency:fire_extinguisher": "yes",
+        "name": "Urquinaona",
+        "network": "Metro de Barcelona",
+        "operator": "Transports Metropolitans de Barcelona",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "geolocation taken from http://en.wikipedia.org/wiki/Barcelona_metro_line_1",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1745608,
+          41.3896372
+        ]
+      },
+      "id": "node/5313819558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4771857434",
+        "name": "Gràcia",
+        "name:ca": "Gràcia",
+        "network": "Metro de Barcelona;Metro del Vallès",
+        "piano": "yes",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q2501185",
+        "wikipedia": "ca:Estació de Gràcia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1520847,
+          41.3997143
+        ]
+      },
+      "id": "node/4771857434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5264057229",
+        "defibrillator:access": "yes",
+        "defibrillator:indoor": "yes",
+        "defibrillator:location": "Andana direcció Trinitat Nova",
+        "defibrillator:location:en": "Platform to Trinitat Nova",
+        "defibrillator:wheelchair:access": "yes",
+        "emergency": "defibrillator",
+        "emergency:fire_extinguisher": "yes",
+        "indoor": "no",
+        "name": "Verdaguer",
+        "name:ca": "Verdaguer",
+        "network": "Metro de Barcelona",
+        "operator": "TMB",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "geolocation taken from http://en.wikipedia.org/wiki/Barcelona_metro_line_4",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q2514293",
+        "wikipedia": "ca:Estació de Verdaguer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1684275,
+          41.4000911
+        ]
+      },
+      "id": "node/5264057229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5331527848",
+        "defibrillator:access": "yes",
+        "defibrillator:indoor": "yes",
+        "defibrillator:location": "Andana direcció Vall d'Hebron",
+        "defibrillator:location:en": "Platform to Vall d'Hebron",
+        "defibrillator:survey:date": "2023-12-02",
+        "defibrillator:wheelchair:access": "yes",
+        "emergency": "defibrillator",
+        "emergency:fire_extinguisher": "yes",
+        "indoor": "yes",
+        "name": "Verdaguer",
+        "name:ca": "Verdaguer",
+        "network": "Metro de Barcelona",
+        "operator": "TMB",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "geolocation taken from http://en.wikipedia.org/wiki/Barcelona_metro_line_4",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q2514293",
+        "wikipedia": "ca:Estació de Verdaguer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1681937,
+          41.399772
+        ]
+      },
+      "id": "node/5331527848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313340299",
+        "defibrillator:access": "yes",
+        "defibrillator:indoor": "yes",
+        "defibrillator:location": "Andana direcció Trinitat Nova",
+        "defibrillator:location:en": "Platform to Trinitat Nova",
+        "emergency": "defibrillator",
+        "emergency:fire_extinguisher": "yes",
+        "name": "Ciutadella | Vila Olímpica",
+        "name:ca": "Ciutadella | Vila Olímpica",
+        "network": "Metro de Barcelona",
+        "operator": "Transports Metropolitans de Barcelona",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "geolocation taken from http://en.wikipedia.org/wiki/Barcelona_metro_line_4",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q1094407",
+        "wikipedia": "ca:Estació de Ciutadella - Vila Olímpica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1929661,
+          41.3866815
+        ]
+      },
+      "id": "node/5313340299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5313434190",
+        "defibrillator:access": "yes",
+        "defibrillator:indoor": "yes",
+        "defibrillator:location": "Andana central",
+        "defibrillator:location:en": "platform",
+        "emergency": "defibrillator",
+        "emergency:fire_extinguisher": "yes",
+        "indoor": "yes",
+        "level": "-2",
+        "name": "el Clot",
+        "name:ca": "el Clot",
+        "network": "Metro de Barcelona",
+        "operator": "Transports Metropolitans de Barcelona",
+        "panoramax": "68d1fed4-3e80-4bda-a980-820a3fe2be21",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "survey:date": "2023-11-12",
+        "wheelchair": "no",
+        "wikidata": "Q2435438",
+        "wikipedia": "ca:Estació El Clot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1869158,
+          41.4101394
+        ]
+      },
+      "id": "node/5313434190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314022326",
+        "defibrillator:access": "yes",
+        "defibrillator:indoor": "yes",
+        "defibrillator:location": "andana",
+        "defibrillator:location:en": "platform",
+        "emergency": "defibrillator",
+        "emergency:fire_extinguisher": "yes",
+        "name": "Ciutat Meridiana",
+        "name:ca": "Ciutat Meridiana",
+        "network": "Metro de Barcelona",
+        "operator": "Transports Metropolitans de Barcelona",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "survey:date": "2024-06-11",
+        "wikidata": "Q339108",
+        "wikipedia": "ca:Estació de Ciutat Meridiana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1745668,
+          41.4609185
+        ]
+      },
+      "id": "node/5314022326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314022323",
+        "defibrillator:access": "yes",
+        "defibrillator:indoor": "yes",
+        "defibrillator:location": "andana",
+        "defibrillator:location:en": "platform",
+        "emergency": "defibrillator",
+        "emergency:fire_extinguisher": "yes",
+        "name": "Casa de l'Aigua",
+        "name:ca": "Casa de l'Aigua",
+        "network": "Metro de Barcelona",
+        "operator": "Transports Metropolitans de Barcelona",
+        "panoramax:0": "e33c1002-29a6-4102-a385-7214a737248e",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "geolocation taken from http://en.wikipedia.org/wiki/Barcelona_metro_line_11",
+        "station": "subway",
+        "subway": "yes",
+        "survey:date": "2024-06-11",
+        "wikidata": "Q2547371",
+        "wikimedia_commons": "File:Estació Casa de l'Aigua novembre 2023.jpg",
+        "wikipedia": "ca:Estació de Casa de l'Aigua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1848915,
+          41.4512669
+        ]
+      },
+      "id": "node/5314022323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5319308366",
+        "name": "Trinitat Nova",
+        "name:ca": "Trinitat Nova",
+        "network": "Metro de Barcelona",
+        "operator": "Transports Metropolitans de Barcelona",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "geolocation taken from http://en.wikipedia.org/wiki/Barcelona_metro_line_11",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q747555",
+        "wikipedia": "ca:Estació de Trinitat Nova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.182423,
+          41.4492053
+        ]
+      },
+      "id": "node/5319308366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314022324",
+        "defibrillator:access": "yes",
+        "defibrillator:indoor": "yes",
+        "emergency": "defibrillator",
+        "emergency:fire_extinguisher": "yes",
+        "name": "Torre Baró | Vallbona",
+        "name:ca": "Torre Baró | Vallbona",
+        "network": "Metro de Barcelona",
+        "operator": "Transports Metropolitans de Barcelona",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "geolocation taken from http://en.wikipedia.org/wiki/Barcelona_metro_line_11",
+        "station": "subway",
+        "subway": "yes",
+        "survey:date": "2024-06-11",
+        "wikidata": "Q2498716",
+        "wikipedia": "ca:Estació de Torre Baró - Vallbona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1799449,
+          41.4592177
+        ]
+      },
+      "id": "node/5314022324"
+    }
+  ]
+}
