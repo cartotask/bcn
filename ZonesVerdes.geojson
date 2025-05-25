@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2025-05-25T17:44:29Z",
+  "timestamp": "2025-05-25T17:48:40Z",
   "features": [
     {
       "type": "Feature",
@@ -30,14 +30,277 @@
         "ref:bic": "RI-52-0000030",
         "type": "multipolygon",
         "wikidata": "Q301135",
-        "wikipedia": "ca:Parc de la Ciutadella",
-        "@geometry": "center"
+        "wikipedia": "ca:Parc de la Ciutadella"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          2.1863786,
-          41.3882601
+          [
+            [
+              2.1866699,
+              41.3857847
+            ],
+            [
+              2.1867954,
+              41.3858883
+            ],
+            [
+              2.1869383,
+              41.3860002
+            ],
+            [
+              2.1869955,
+              41.3860451
+            ],
+            [
+              2.1871234,
+              41.3861481
+            ],
+            [
+              2.1872234,
+              41.3862287
+            ],
+            [
+              2.1872707,
+              41.3862668
+            ],
+            [
+              2.1874142,
+              41.3863572
+            ],
+            [
+              2.1876129,
+              41.3864735
+            ],
+            [
+              2.1876888,
+              41.3865179
+            ],
+            [
+              2.1884205,
+              41.3867878
+            ],
+            [
+              2.1892654,
+              41.38718
+            ],
+            [
+              2.1892923,
+              41.3872967
+            ],
+            [
+              2.1892151,
+              41.3873977
+            ],
+            [
+              2.1898542,
+              41.3877212
+            ],
+            [
+              2.188909,
+              41.388848
+            ],
+            [
+              2.1884897,
+              41.3886628
+            ],
+            [
+              2.1883345,
+              41.3888002
+            ],
+            [
+              2.1882013,
+              41.3887864
+            ],
+            [
+              2.1880292,
+              41.3887184
+            ],
+            [
+              2.1879386,
+              41.388644
+            ],
+            [
+              2.1878527,
+              41.3886256
+            ],
+            [
+              2.187634,
+              41.3887004
+            ],
+            [
+              2.1874542,
+              41.3888243
+            ],
+            [
+              2.1873571,
+              41.3889572
+            ],
+            [
+              2.1873076,
+              41.3890931
+            ],
+            [
+              2.1873223,
+              41.3892304
+            ],
+            [
+              2.1873749,
+              41.3894438
+            ],
+            [
+              2.1874768,
+              41.3897823
+            ],
+            [
+              2.1874298,
+              41.3900065
+            ],
+            [
+              2.1873335,
+              41.3901925
+            ],
+            [
+              2.1871354,
+              41.3904002
+            ],
+            [
+              2.1868341,
+              41.3906207
+            ],
+            [
+              2.1865061,
+              41.3908693
+            ],
+            [
+              2.186403,
+              41.390792
+            ],
+            [
+              2.1863791,
+              41.3907741
+            ],
+            [
+              2.1863527,
+              41.3907544
+            ],
+            [
+              2.1862932,
+              41.3907099
+            ],
+            [
+              2.1851114,
+              41.3898269
+            ],
+            [
+              2.1837283,
+              41.3887881
+            ],
+            [
+              2.1836779,
+              41.3887502
+            ],
+            [
+              2.1836141,
+              41.3887017
+            ],
+            [
+              2.1829619,
+              41.3882064
+            ],
+            [
+              2.1829265,
+              41.3882027
+            ],
+            [
+              2.1829029,
+              41.3881798
+            ],
+            [
+              2.1829111,
+              41.3881457
+            ],
+            [
+              2.1829521,
+              41.3881297
+            ],
+            [
+              2.1831291,
+              41.3879819
+            ],
+            [
+              2.183143,
+              41.3879906
+            ],
+            [
+              2.1832732,
+              41.3878898
+            ],
+            [
+              2.1833298,
+              41.3878419
+            ],
+            [
+              2.1834721,
+              41.3877387
+            ],
+            [
+              2.1839849,
+              41.3873471
+            ],
+            [
+              2.1846563,
+              41.3868484
+            ],
+            [
+              2.1851437,
+              41.3864812
+            ],
+            [
+              2.1858542,
+              41.3859458
+            ],
+            [
+              2.1858737,
+              41.3859311
+            ],
+            [
+              2.1859736,
+              41.3858561
+            ],
+            [
+              2.1860318,
+              41.3858087
+            ],
+            [
+              2.1860738,
+              41.3857745
+            ],
+            [
+              2.1861625,
+              41.3857084
+            ],
+            [
+              2.1861895,
+              41.3856882
+            ],
+            [
+              2.1862494,
+              41.3856509
+            ],
+            [
+              2.1862901,
+              41.3856771
+            ],
+            [
+              2.1865351,
+              41.3858605
+            ],
+            [
+              2.1866699,
+              41.3857847
+            ]
+          ]
         ]
       },
       "id": "relation/271463"
@@ -54,14 +317,235 @@
         "start_date": "2002",
         "type": "multipolygon",
         "wikidata": "Q6062641",
-        "wikipedia": "ca:Parc Diagonal Mar",
-        "@geometry": "center"
+        "wikipedia": "ca:Parc Diagonal Mar"
       },
       "geometry": {
-        "type": "Point",
+        "type": "MultiPolygon",
         "coordinates": [
-          2.2146783,
-          41.4071882
+          [
+            [
+              [
+                2.216632,
+                41.4081156
+              ],
+              [
+                2.216571,
+                41.4081222
+              ],
+              [
+                2.2165221,
+                41.4081038
+              ],
+              [
+                2.2158331,
+                41.40738
+              ],
+              [
+                2.2157264,
+                41.4072656
+              ],
+              [
+                2.2150818,
+                41.406593
+              ],
+              [
+                2.2149134,
+                41.4064517
+              ],
+              [
+                2.2146377,
+                41.4062426
+              ],
+              [
+                2.2141609,
+                41.4058747
+              ],
+              [
+                2.2141146,
+                41.4058226
+              ],
+              [
+                2.2138442,
+                41.4053719
+              ],
+              [
+                2.2138452,
+                41.4053324
+              ],
+              [
+                2.2138852,
+                41.4052922
+              ],
+              [
+                2.2149266,
+                41.4045052
+              ],
+              [
+                2.2149439,
+                41.4044981
+              ],
+              [
+                2.2149608,
+                41.4044969
+              ],
+              [
+                2.2149813,
+                41.4044981
+              ],
+              [
+                2.2149997,
+                41.4045036
+              ],
+              [
+                2.2150181,
+                41.4045166
+              ],
+              [
+                2.2175126,
+                41.4064007
+              ],
+              [
+                2.2181037,
+                41.4068418
+              ],
+              [
+                2.2181354,
+                41.4068651
+              ],
+              [
+                2.2182107,
+                41.4069191
+              ],
+              [
+                2.2182079,
+                41.4069289
+              ],
+              [
+                2.216632,
+                41.4081156
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                2.2134201,
+                41.4057151
+              ],
+              [
+                2.2135343,
+                41.4057557
+              ],
+              [
+                2.2139889,
+                41.4059176
+              ],
+              [
+                2.2140835,
+                41.405977
+              ],
+              [
+                2.2142407,
+                41.4060895
+              ],
+              [
+                2.214947,
+                41.4066354
+              ],
+              [
+                2.2151454,
+                41.4068228
+              ],
+              [
+                2.2153725,
+                41.4070641
+              ],
+              [
+                2.2155972,
+                41.4073097
+              ],
+              [
+                2.2154469,
+                41.4074578
+              ],
+              [
+                2.2147595,
+                41.4091125
+              ],
+              [
+                2.2145901,
+                41.4095358
+              ],
+              [
+                2.2146023,
+                41.4095794
+              ],
+              [
+                2.2142702,
+                41.4098449
+              ],
+              [
+                2.2142075,
+                41.4098702
+              ],
+              [
+                2.2141634,
+                41.4098795
+              ],
+              [
+                2.2141165,
+                41.4098743
+              ],
+              [
+                2.2140269,
+                41.4098381
+              ],
+              [
+                2.2139373,
+                41.4097802
+              ],
+              [
+                2.2130012,
+                41.4090569
+              ],
+              [
+                2.2128392,
+                41.4089262
+              ],
+              [
+                2.2121539,
+                41.4084249
+              ],
+              [
+                2.211146,
+                41.4076562
+              ],
+              [
+                2.211146,
+                41.4073793
+              ],
+              [
+                2.2117245,
+                41.4069559
+              ],
+              [
+                2.2130423,
+                41.4059916
+              ],
+              [
+                2.2132777,
+                41.4058193
+              ],
+              [
+                2.2133273,
+                41.405783
+              ],
+              [
+                2.2134201,
+                41.4057151
+              ]
+            ]
+          ]
         ]
       },
       "id": "relation/9811351"
@@ -69,17 +553,193 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/24220712",
+        "dog": "no",
+        "leisure": "park",
+        "@relations": [
+          {
+            "role": "outer",
+            "rel": 9811351,
+            "reltags": {
+              "architect": "Enric Miralles; Benedetta Tagliabue; EMBT",
+              "architect:wikidata": "Q5816149",
+              "leisure": "park",
+              "name": "Parc de Diagonal Mar",
+              "name:ca": "Parc de Diagonal Mar",
+              "start_date": "2002",
+              "type": "multipolygon",
+              "wikidata": "Q6062641",
+              "wikipedia": "ca:Parc Diagonal Mar"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2134201,
+              41.4057151
+            ],
+            [
+              2.2135343,
+              41.4057557
+            ],
+            [
+              2.2139889,
+              41.4059176
+            ],
+            [
+              2.2140835,
+              41.405977
+            ],
+            [
+              2.2142407,
+              41.4060895
+            ],
+            [
+              2.214947,
+              41.4066354
+            ],
+            [
+              2.2151454,
+              41.4068228
+            ],
+            [
+              2.2153725,
+              41.4070641
+            ],
+            [
+              2.2155972,
+              41.4073097
+            ],
+            [
+              2.2154469,
+              41.4074578
+            ],
+            [
+              2.2147595,
+              41.4091125
+            ],
+            [
+              2.2145901,
+              41.4095358
+            ],
+            [
+              2.2146023,
+              41.4095794
+            ],
+            [
+              2.2142702,
+              41.4098449
+            ],
+            [
+              2.2142075,
+              41.4098702
+            ],
+            [
+              2.2141634,
+              41.4098795
+            ],
+            [
+              2.2141165,
+              41.4098743
+            ],
+            [
+              2.2140269,
+              41.4098381
+            ],
+            [
+              2.2139373,
+              41.4097802
+            ],
+            [
+              2.2130012,
+              41.4090569
+            ],
+            [
+              2.2128392,
+              41.4089262
+            ],
+            [
+              2.2121539,
+              41.4084249
+            ],
+            [
+              2.211146,
+              41.4076562
+            ],
+            [
+              2.211146,
+              41.4073793
+            ],
+            [
+              2.2117245,
+              41.4069559
+            ],
+            [
+              2.2130423,
+              41.4059916
+            ],
+            [
+              2.2132777,
+              41.4058193
+            ],
+            [
+              2.2133273,
+              41.405783
+            ],
+            [
+              2.2134201,
+              41.4057151
+            ]
+          ]
+        ]
+      },
+      "id": "way/24220712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/26468441",
         "leisure": "park",
         "name": "Plaça de Diagonal Mar",
-        "name:ca": "Plaça de Diagonal Mar",
-        "@geometry": "center"
+        "name:ca": "Plaça de Diagonal Mar"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          2.2140558,
-          41.4109177
+          [
+            [
+              2.213518,
+              41.4108988
+            ],
+            [
+              2.2138857,
+              41.4105976
+            ],
+            [
+              2.2141289,
+              41.4107805
+            ],
+            [
+              2.2143622,
+              41.4106061
+            ],
+            [
+              2.2145936,
+              41.4107801
+            ],
+            [
+              2.2139736,
+              41.4112378
+            ],
+            [
+              2.213518,
+              41.4108988
+            ]
+          ]
         ]
       },
       "id": "way/26468441"
@@ -97,14 +757,213 @@
         "tourism": "attraction",
         "wikidata": "Q3363840",
         "wikimedia_commons": "Category:Parc de Joan Miró",
-        "wikipedia": "ca:Parc de Joan Miró",
-        "@geometry": "center"
+        "wikipedia": "ca:Parc de Joan Miró"
       },
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          2.1483573,
-          41.3779581
+          [
+            [
+              2.1481669,
+              41.3794507
+            ],
+            [
+              2.1481623,
+              41.3794555
+            ],
+            [
+              2.1470075,
+              41.3785844
+            ],
+            [
+              2.1470649,
+              41.3785392
+            ],
+            [
+              2.1472125,
+              41.378434
+            ],
+            [
+              2.1474826,
+              41.3782343
+            ],
+            [
+              2.1472315,
+              41.3780431
+            ],
+            [
+              2.1472211,
+              41.3780508
+            ],
+            [
+              2.1471744,
+              41.3780167
+            ],
+            [
+              2.1470441,
+              41.3781171
+            ],
+            [
+              2.1469132,
+              41.3782069
+            ],
+            [
+              2.1466099,
+              41.3779786
+            ],
+            [
+              2.1464997,
+              41.37806
+            ],
+            [
+              2.146492,
+              41.3780535
+            ],
+            [
+              2.1464818,
+              41.3780448
+            ],
+            [
+              2.1465171,
+              41.3780166
+            ],
+            [
+              2.1464787,
+              41.3779773
+            ],
+            [
+              2.1470832,
+              41.3775246
+            ],
+            [
+              2.147147,
+              41.3774758
+            ],
+            [
+              2.1471262,
+              41.3773874
+            ],
+            [
+              2.1471425,
+              41.3773644
+            ],
+            [
+              2.1471296,
+              41.377359
+            ],
+            [
+              2.147523,
+              41.3770737
+            ],
+            [
+              2.1475712,
+              41.3770339
+            ],
+            [
+              2.1478786,
+              41.3767909
+            ],
+            [
+              2.148174,
+              41.376573
+            ],
+            [
+              2.148343,
+              41.3764608
+            ],
+            [
+              2.1488377,
+              41.3768244
+            ],
+            [
+              2.1488819,
+              41.3768591
+            ],
+            [
+              2.1491565,
+              41.3770707
+            ],
+            [
+              2.1502358,
+              41.3778961
+            ],
+            [
+              2.1498775,
+              41.378156
+            ],
+            [
+              2.1498342,
+              41.3782452
+            ],
+            [
+              2.1497836,
+              41.3783238
+            ],
+            [
+              2.1497523,
+              41.3783659
+            ],
+            [
+              2.1496602,
+              41.3784835
+            ],
+            [
+              2.1496233,
+              41.3785229
+            ],
+            [
+              2.1495173,
+              41.3786187
+            ],
+            [
+              2.1493603,
+              41.3787632
+            ],
+            [
+              2.1493312,
+              41.3787823
+            ],
+            [
+              2.1493038,
+              41.3788007
+            ],
+            [
+              2.1491749,
+              41.3788824
+            ],
+            [
+              2.1491204,
+              41.3789194
+            ],
+            [
+              2.1489825,
+              41.3790007
+            ],
+            [
+              2.1489279,
+              41.3790331
+            ],
+            [
+              2.1487695,
+              41.3791012
+            ],
+            [
+              2.1486801,
+              41.3791368
+            ],
+            [
+              2.1486019,
+              41.3791629
+            ],
+            [
+              2.148515,
+              41.3791798
+            ],
+            [
+              2.1481669,
+              41.3794507
+            ]
+          ]
         ]
       },
       "id": "way/36305535"
@@ -138,17 +997,868 @@
         "whc:inscription_date": "1984",
         "wheelchair": "limited",
         "wikidata": "Q212867",
-        "wikipedia": "ca:Parc Güell",
-        "@geometry": "center"
+        "wikipedia": "ca:Parc Güell"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1480947,
+              41.4147203
+            ],
+            [
+              2.1480085,
+              41.4145153
+            ],
+            [
+              2.1479482,
+              41.414354
+            ],
+            [
+              2.1481253,
+              41.4142783
+            ],
+            [
+              2.1482544,
+              41.4139896
+            ],
+            [
+              2.1482245,
+              41.4139074
+            ],
+            [
+              2.1481575,
+              41.4138402
+            ],
+            [
+              2.1485123,
+              41.4136701
+            ],
+            [
+              2.148607,
+              41.4137751
+            ],
+            [
+              2.1485987,
+              41.4139033
+            ],
+            [
+              2.1485612,
+              41.4140075
+            ],
+            [
+              2.1484594,
+              41.4141912
+            ],
+            [
+              2.1493748,
+              41.4144014
+            ],
+            [
+              2.1497647,
+              41.4143491
+            ],
+            [
+              2.1497487,
+              41.4143792
+            ],
+            [
+              2.1495371,
+              41.4147779
+            ],
+            [
+              2.1496649,
+              41.4147871
+            ],
+            [
+              2.1498071,
+              41.4145129
+            ],
+            [
+              2.1498848,
+              41.4143813
+            ],
+            [
+              2.1499449,
+              41.413699
+            ],
+            [
+              2.1497004,
+              41.4130497
+            ],
+            [
+              2.1498769,
+              41.4130582
+            ],
+            [
+              2.1501833,
+              41.412923
+            ],
+            [
+              2.1503034,
+              41.4128251
+            ],
+            [
+              2.1504583,
+              41.4126871
+            ],
+            [
+              2.1505871,
+              41.4125457
+            ],
+            [
+              2.1507713,
+              41.4123436
+            ],
+            [
+              2.1504278,
+              41.4121309
+            ],
+            [
+              2.1506732,
+              41.4116986
+            ],
+            [
+              2.1507767,
+              41.4116771
+            ],
+            [
+              2.1508009,
+              41.4116556
+            ],
+            [
+              2.1513391,
+              41.4117472
+            ],
+            [
+              2.1515111,
+              41.4117448
+            ],
+            [
+              2.1515911,
+              41.4115937
+            ],
+            [
+              2.1521176,
+              41.4117035
+            ],
+            [
+              2.1522881,
+              41.4116778
+            ],
+            [
+              2.1519038,
+              41.4118858
+            ],
+            [
+              2.152617,
+              41.4121498
+            ],
+            [
+              2.1520082,
+              41.4127725
+            ],
+            [
+              2.1520531,
+              41.4128026
+            ],
+            [
+              2.1529263,
+              41.413356
+            ],
+            [
+              2.1529578,
+              41.4133586
+            ],
+            [
+              2.1530694,
+              41.4134403
+            ],
+            [
+              2.1530584,
+              41.4134638
+            ],
+            [
+              2.1530954,
+              41.413488
+            ],
+            [
+              2.15312,
+              41.4135024
+            ],
+            [
+              2.1531698,
+              41.4134959
+            ],
+            [
+              2.153286,
+              41.413569
+            ],
+            [
+              2.1533343,
+              41.4136216
+            ],
+            [
+              2.1538167,
+              41.4139186
+            ],
+            [
+              2.1538733,
+              41.4138734
+            ],
+            [
+              2.1542412,
+              41.4136228
+            ],
+            [
+              2.1542725,
+              41.4135644
+            ],
+            [
+              2.1543365,
+              41.4134452
+            ],
+            [
+              2.154389,
+              41.4133612
+            ],
+            [
+              2.1544763,
+              41.4132216
+            ],
+            [
+              2.1546692,
+              41.4132888
+            ],
+            [
+              2.1550517,
+              41.4143277
+            ],
+            [
+              2.1553109,
+              41.4146589
+            ],
+            [
+              2.154868,
+              41.4149681
+            ],
+            [
+              2.1547106,
+              41.4151508
+            ],
+            [
+              2.152743,
+              41.4167243
+            ],
+            [
+              2.1521078,
+              41.4167951
+            ],
+            [
+              2.1500192,
+              41.4168489
+            ],
+            [
+              2.1486632,
+              41.4166376
+            ],
+            [
+              2.1483985,
+              41.4160381
+            ],
+            [
+              2.1488046,
+              41.4156654
+            ],
+            [
+              2.1486027,
+              41.4154744
+            ],
+            [
+              2.1485783,
+              41.4154099
+            ],
+            [
+              2.1485871,
+              41.4152995
+            ],
+            [
+              2.1485386,
+              41.4151876
+            ],
+            [
+              2.1480821,
+              41.4152968
+            ],
+            [
+              2.1478935,
+              41.414857
+            ],
+            [
+              2.1480947,
+              41.4147203
+            ]
+          ]
+        ]
+      },
+      "id": "way/66713401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/37480320",
+        "barrier": "wall",
+        "@relations": [
+          {
+            "role": "outer",
+            "rel": 271463,
+            "reltags": {
+              "access": "yes",
+              "addr:city": "Barcelona",
+              "addr:housenumber": "21",
+              "addr:postcode": "08003",
+              "addr:street": "Passeig de Picasso",
+              "contact:website": "https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/parque-de-la-ciutadella-92086011921",
+              "description": "Ple d’arbres centenaris, el parc de la Ciutadella conté una gran diversitat d’elements: la cascada monumental, edificis del segle XIX avui convertits en museus, un llac per passejar en barquetes de rems, passejos i nombroses escultures. Comparteix espai a",
+              "description:ca": "Ple d’arbres centenaris, el parc de la Ciutadella conté una gran diversitat d’elements: la cascada monumental, edificis del segle XIX avui convertits en museus, un llac per passejar en barquetes de rems, passejos i nombroses escultures. Comparteix espai a",
+              "dog": "leashed",
+              "fee": "no",
+              "leisure": "park",
+              "name": "Parc de la Ciutadella",
+              "name:ca": "Parc de la Ciutadella",
+              "name:fr": "Parc de la Citadelle",
+              "name:ru": "Парк Цитадели",
+              "name:uk": "Парк Цитаделі",
+              "name:zh": "城堡公園",
+              "opening_hours": "Mo-Su 10:00-22:30",
+              "operator": "Ajuntament de Barcelona",
+              "ref:bic": "RI-52-0000030",
+              "type": "multipolygon",
+              "wikidata": "Q301135",
+              "wikipedia": "ca:Parc de la Ciutadella"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.1865061,
+            41.3908693
+          ],
+          [
+            2.1868341,
+            41.3906207
+          ]
+        ]
+      },
+      "id": "way/37480320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/37480321",
+        "barrier": "wall",
+        "@relations": [
+          {
+            "role": "outer",
+            "rel": 271463,
+            "reltags": {
+              "access": "yes",
+              "addr:city": "Barcelona",
+              "addr:housenumber": "21",
+              "addr:postcode": "08003",
+              "addr:street": "Passeig de Picasso",
+              "contact:website": "https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/parque-de-la-ciutadella-92086011921",
+              "description": "Ple d’arbres centenaris, el parc de la Ciutadella conté una gran diversitat d’elements: la cascada monumental, edificis del segle XIX avui convertits en museus, un llac per passejar en barquetes de rems, passejos i nombroses escultures. Comparteix espai a",
+              "description:ca": "Ple d’arbres centenaris, el parc de la Ciutadella conté una gran diversitat d’elements: la cascada monumental, edificis del segle XIX avui convertits en museus, un llac per passejar en barquetes de rems, passejos i nombroses escultures. Comparteix espai a",
+              "dog": "leashed",
+              "fee": "no",
+              "leisure": "park",
+              "name": "Parc de la Ciutadella",
+              "name:ca": "Parc de la Ciutadella",
+              "name:fr": "Parc de la Citadelle",
+              "name:ru": "Парк Цитадели",
+              "name:uk": "Парк Цитаделі",
+              "name:zh": "城堡公園",
+              "opening_hours": "Mo-Su 10:00-22:30",
+              "operator": "Ajuntament de Barcelona",
+              "ref:bic": "RI-52-0000030",
+              "type": "multipolygon",
+              "wikidata": "Q301135",
+              "wikipedia": "ca:Parc de la Ciutadella"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.1862901,
+            41.3856771
+          ],
+          [
+            2.1865351,
+            41.3858605
+          ],
+          [
+            2.1866699,
+            41.3857847
+          ]
+        ]
+      },
+      "id": "way/37480321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/204043517",
+        "barrier": "wall",
+        "@relations": [
+          {
+            "role": "outer",
+            "rel": 271463,
+            "reltags": {
+              "access": "yes",
+              "addr:city": "Barcelona",
+              "addr:housenumber": "21",
+              "addr:postcode": "08003",
+              "addr:street": "Passeig de Picasso",
+              "contact:website": "https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/parque-de-la-ciutadella-92086011921",
+              "description": "Ple d’arbres centenaris, el parc de la Ciutadella conté una gran diversitat d’elements: la cascada monumental, edificis del segle XIX avui convertits en museus, un llac per passejar en barquetes de rems, passejos i nombroses escultures. Comparteix espai a",
+              "description:ca": "Ple d’arbres centenaris, el parc de la Ciutadella conté una gran diversitat d’elements: la cascada monumental, edificis del segle XIX avui convertits en museus, un llac per passejar en barquetes de rems, passejos i nombroses escultures. Comparteix espai a",
+              "dog": "leashed",
+              "fee": "no",
+              "leisure": "park",
+              "name": "Parc de la Ciutadella",
+              "name:ca": "Parc de la Ciutadella",
+              "name:fr": "Parc de la Citadelle",
+              "name:ru": "Парк Цитадели",
+              "name:uk": "Парк Цитаделі",
+              "name:zh": "城堡公園",
+              "opening_hours": "Mo-Su 10:00-22:30",
+              "operator": "Ajuntament de Barcelona",
+              "ref:bic": "RI-52-0000030",
+              "type": "multipolygon",
+              "wikidata": "Q301135",
+              "wikipedia": "ca:Parc de la Ciutadella"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.1868341,
+            41.3906207
+          ],
+          [
+            2.1871354,
+            41.3904002
+          ],
+          [
+            2.1873335,
+            41.3901925
+          ],
+          [
+            2.1874298,
+            41.3900065
+          ],
+          [
+            2.1874768,
+            41.3897823
+          ],
+          [
+            2.1873749,
+            41.3894438
+          ],
+          [
+            2.1873223,
+            41.3892304
+          ],
+          [
+            2.1873076,
+            41.3890931
+          ],
+          [
+            2.1873571,
+            41.3889572
+          ],
+          [
+            2.1874542,
+            41.3888243
+          ],
+          [
+            2.187634,
+            41.3887004
+          ],
+          [
+            2.1878527,
+            41.3886256
+          ],
+          [
+            2.1879386,
+            41.388644
+          ],
+          [
+            2.1880292,
+            41.3887184
+          ],
+          [
+            2.1882013,
+            41.3887864
+          ],
+          [
+            2.1883345,
+            41.3888002
+          ],
+          [
+            2.1884897,
+            41.3886628
+          ],
+          [
+            2.188909,
+            41.388848
+          ],
+          [
+            2.1898542,
+            41.3877212
+          ],
+          [
+            2.1892151,
+            41.3873977
+          ],
+          [
+            2.1892923,
+            41.3872967
+          ],
+          [
+            2.1892654,
+            41.38718
+          ],
+          [
+            2.1884205,
+            41.3867878
+          ],
+          [
+            2.1876888,
+            41.3865179
+          ],
+          [
+            2.1876129,
+            41.3864735
+          ],
+          [
+            2.1874142,
+            41.3863572
+          ],
+          [
+            2.1872707,
+            41.3862668
+          ]
+        ]
+      },
+      "id": "way/204043517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/361838222",
+        "barrier": "wall",
+        "@relations": [
+          {
+            "role": "outer",
+            "rel": 271463,
+            "reltags": {
+              "access": "yes",
+              "addr:city": "Barcelona",
+              "addr:housenumber": "21",
+              "addr:postcode": "08003",
+              "addr:street": "Passeig de Picasso",
+              "contact:website": "https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/parque-de-la-ciutadella-92086011921",
+              "description": "Ple d’arbres centenaris, el parc de la Ciutadella conté una gran diversitat d’elements: la cascada monumental, edificis del segle XIX avui convertits en museus, un llac per passejar en barquetes de rems, passejos i nombroses escultures. Comparteix espai a",
+              "description:ca": "Ple d’arbres centenaris, el parc de la Ciutadella conté una gran diversitat d’elements: la cascada monumental, edificis del segle XIX avui convertits en museus, un llac per passejar en barquetes de rems, passejos i nombroses escultures. Comparteix espai a",
+              "dog": "leashed",
+              "fee": "no",
+              "leisure": "park",
+              "name": "Parc de la Ciutadella",
+              "name:ca": "Parc de la Ciutadella",
+              "name:fr": "Parc de la Citadelle",
+              "name:ru": "Парк Цитадели",
+              "name:uk": "Парк Цитаделі",
+              "name:zh": "城堡公園",
+              "opening_hours": "Mo-Su 10:00-22:30",
+              "operator": "Ajuntament de Barcelona",
+              "ref:bic": "RI-52-0000030",
+              "type": "multipolygon",
+              "wikidata": "Q301135",
+              "wikipedia": "ca:Parc de la Ciutadella"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.1866699,
+            41.3857847
+          ],
+          [
+            2.1867954,
+            41.3858883
+          ],
+          [
+            2.1869383,
+            41.3860002
+          ],
+          [
+            2.1869955,
+            41.3860451
+          ]
+        ]
+      },
+      "id": "way/361838222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/402883145",
+        "access": "ticket_validator",
+        "barrier": "gate",
+        "bicycle": "no",
+        "fee": "yes",
+        "foot": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.1516022,
-          41.4142213
+          2.1530954,
+          41.413488
         ]
       },
-      "id": "way/66713401"
+      "id": "node/402883145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/438231081",
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "motor_vehicle": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1863791,
+          41.3907741
+        ]
+      },
+      "id": "node/438231081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/506131384",
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "motor_vehicle": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1836779,
+          41.3887502
+        ]
+      },
+      "id": "node/506131384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/772277665",
+        "access": "yes",
+        "barrier": "gate",
+        "bicycle": "no",
+        "fee": "yes",
+        "foot": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1538733,
+          41.4138734
+        ]
+      },
+      "id": "node/772277665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1371719291",
+        "access": "yes",
+        "barrier": "gate",
+        "bicycle": "no",
+        "fee": "yes",
+        "foot": "yes",
+        "source": "PNOA",
+        "source:date": "2009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1520531,
+          41.4128026
+        ]
+      },
+      "id": "node/1371719291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2239891002",
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1834721,
+          41.3877387
+        ]
+      },
+      "id": "node/2239891002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2239891048",
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "motor_vehicle": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1851114,
+          41.3898269
+        ]
+      },
+      "id": "node/2239891048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3662608168",
+        "barrier": "gate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1861895,
+          41.3856882
+        ]
+      },
+      "id": "node/3662608168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3662608172",
+        "access": "yes",
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "motorcar": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1860318,
+          41.3858087
+        ]
+      },
+      "id": "node/3662608172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4318504179",
+        "access": "yes",
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1858542,
+          41.3859458
+        ]
+      },
+      "id": "node/4318504179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7008552826",
+        "entrance": "main",
+        "name": "Zoo de Barcelona",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1871234,
+          41.3861481
+        ]
+      },
+      "id": "node/7008552826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7294908546",
+        "access": "yes",
+        "barrier": "gate",
+        "fee": "yes",
+        "foot": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1547106,
+          41.4151508
+        ]
+      },
+      "id": "node/7294908546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9047983302",
+        "access": "yes",
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "motorcar": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1851437,
+          41.3864812
+        ]
+      },
+      "id": "node/9047983302"
     }
   ]
 }
