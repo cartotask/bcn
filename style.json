@@ -58,24 +58,6 @@
       "paint": {"line-color": "rgba(180, 180, 180, 1)"}
     },
     {
-  "id": "District Labels",
-  "type": "symbol",
-  "source": "Districts",
-  "layout": {
-    "text-field": ["get", "name"],
-    "text-size": 14,
-    "text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
-    "text-offset": [0, 0.6],
-    "text-anchor": "top",
-    "visibility": "visible"
-  },
-  "paint": {
-    "text-color": "rgba(0, 0, 0, 1)",
-    "text-halo-color": "rgba(255, 255, 255, 1)",
-    "text-halo-width": 1
-  }
-}
-    {
       "id": "LandUse",
       "type": "fill",
       "source": "GeoData",
